@@ -1,22 +1,22 @@
 /*  Page styles  */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font: normal 14px/1.4 Arial, Helvetica, sans-serif;
 }
 
 .skrollr-desktop body {
-    height:100% !important;
+    height: 100% !important;
 }
 
 #skrollr-body {
-    height:100%;
-    position:relative;
+    height: 100%;
+    position: relative;
     overflow: hidden;
 }
 
@@ -25,57 +25,57 @@ body{
 
 
 .parallax-image.skrollable-between {
-    display:block;
+    display: block;
 }
 
 .no-skrollr .parallax-image-wrapper {
-    display:none !important;
+    display: none !important;
 }
 
 .parallax-image-wrapper {
-    position:fixed;
-    left:0;
-    width:100%;
-    overflow:hidden;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
 
-    height:80vh;
-    top:-80vh;
+    height: 80vh;
+    top: -80vh;
 }
 
 
 .parallax-image {
-    display:none;
-    position:absolute;
-    bottom:0;
-    left:0;
-    width:100%;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover;
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
-    height:100vh;
-    top:0;
+    height: 100vh;
+    top: 0;
 }
 
 
 .parallax-image.skrollable-between {
-    display:block;
+    display: block;
 }
 
 .no-skrollr .parallax-image-wrapper {
-    display:none !important;
+    display: none !important;
 }
 
 
 
 .gap {
-    background:transparent center no-repeat;
-    background-size:cover;
-    height:80vh;
+    background: transparent center no-repeat;
+    background-size: cover;
+    height: 80vh;
 }
 
 .skrollr .gap {
-    background:transparent !important;
+    background: transparent !important;
 }
 
 
@@ -117,7 +117,7 @@ body{
 /*Body Text*/
 
 
-.body-text{
+.body-text {
     padding: 140px 0;
     background-color: #fff;
     color: #25373C;
@@ -125,13 +125,13 @@ body{
     text-align: center;
 }
 
-.body-text h2{
+.body-text h2 {
     font-size: 42px;
     font-weight: normal;
     margin-bottom: 80px;
 }
 
-.body-text p{
+.body-text p {
     width: 28%;
     display: inline-block;
     text-align: left;
@@ -140,9 +140,9 @@ body{
 }
 
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
 
-    .body-text p{
+    .body-text p {
         width: 100%;
     }
 
@@ -151,7 +151,7 @@ body{
 /*Features List*/
 
 
-.features-list{
+.features-list {
     padding: 150px 0;
     background-color: #fff;
     color: #25373C;
@@ -160,13 +160,13 @@ body{
     text-align: center;
 }
 
-.features-list h2{
+.features-list h2 {
     font-size: 42px;
     margin-bottom: 80px;
     font-weight: normal;
 }
 
-.features-list div{
+.features-list div {
     display: inline-block;
     width: 30%;
     margin: 5px;
@@ -175,13 +175,13 @@ body{
     box-shadow: 1px 1px 1px #ccc, 0 0 30px #eee inset;
 }
 
-.features-list div i{
+.features-list div i {
     font-size: 150px;
     margin-bottom: 40px;
     color: #50B575;
 }
 
-.features-list div h4{
+.features-list div h4 {
     font-size: 18px;
     text-transform: uppercase;
     color: #425F67;
@@ -189,9 +189,9 @@ body{
 }
 
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
 
-    .features-list div{
+    .features-list div {
         width: 90%;
         margin-bottom: 30px;
     }
@@ -201,7 +201,7 @@ body{
 
 /*About us*/
 
-.about-us{
+.about-us {
     padding: 150px 0;
     background-color: #fff;
     min-height: 120vh;
@@ -210,13 +210,13 @@ body{
     font-size: 18px;
 }
 
-.about-us h2{
+.about-us h2 {
     font-size: 42px;
     margin-bottom: 80px;
     font-weight: normal;
 }
 
-.about-us div{
+.about-us div {
     text-align: center;
     width: 25%;
     margin: 30px 10px;
@@ -224,12 +224,12 @@ body{
 }
 
 
-.about-us div img{
+.about-us div img {
     border-radius: 50%;
     width: 60%;
 }
 
-.about-us a.attribution{
+.about-us a.attribution {
     display: block;
     font-size: 13px;
     text-decoration: none;
@@ -240,9 +240,9 @@ body{
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
 
-    .about-us div{
+    .about-us div {
         width: 45%;
         margin: 20px 0;
     }
@@ -253,7 +253,7 @@ body{
 /*Gallery*/
 
 
-.gallery{
+.gallery {
     color: #221f51;
     font: normal 24px sans-serif;
     min-height: 300vh;
@@ -262,7 +262,7 @@ body{
     background: linear-gradient(white, #EEF6F9);
 }
 
-.scroll-pause{
+.scroll-pause {
     position: fixed;
     top: 0;
     left: 0;
@@ -273,13 +273,13 @@ body{
 }
 
 
-.scroll-pause .row{
+.scroll-pause .row {
     width: 200vw;
     height: 30vh;
     overflow: hidden;
 }
 
-.scroll-pause .row div{
+.scroll-pause .row div {
     width: 11.5%;
     height: 90%;
     float: left;
@@ -290,18 +290,18 @@ body{
     border-radius: 10px;
 }
 
-.scroll-pause .row div:first-child{
+.scroll-pause .row div:first-child {
     margin-left: 0.4%;
 }
 
-.scroll-pause .row div:last-child{
+.scroll-pause .row div:last-child {
     margin-right: 0.4%;
 }
 
 
 
 /*Footer*/
-footer{
+footer {
     background-color: rgb(255, 255, 255);
     box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.04);
     box-sizing: border-box;
@@ -314,30 +314,30 @@ footer{
 
 /* Footer left */
 
-footer .footer-left{
+footer .footer-left {
     float: left;
 }
 
-footer h3{
-    color:  #5383d3;
+footer h3 {
+    color: #5383d3;
     font: normal 36px 'Cookie', cursive;
     margin: 0;
 }
 
-footer .footer-links{
+footer .footer-links {
     color: #95A4A9;
     margin: 22px 0 14px;
     padding: 0;
 }
 
-footer .footer-links a{
+footer .footer-links a {
     display: inline-block;
     text-decoration: none;
     color: #50B575;
 }
 
-footer .footer-company-name{
-    color:  #8f9296;
+footer .footer-company-name {
+    color: #8f9296;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
@@ -346,18 +346,18 @@ footer .footer-company-name{
 
 /* Footer right */
 
-footer .footer-right{
+footer .footer-right {
     float: right;
     width: 100%;
 }
 
 /* The search form */
 
-footer form{
+footer form {
     position: relative;
 }
 
-footer form input{
+footer form input {
     display: block;
     box-sizing: border-box;
     font: inherit;
@@ -372,28 +372,28 @@ footer form input{
     box-shadow: 0 1px 1px #eee;
 }
 
-footer form input:focus{
-    border-color:#ccc;
+footer form input:focus {
+    border-color: #ccc;
 }
 
 /* Changing the placeholder color */
 
 footer form input::-webkit-input-placeholder {
-    color:  #5c666b;
+    color: #5c666b;
 }
 
 footer form input::-moz-placeholder {
     opacity: 1;
-    color:  #5c666b;
+    color: #5c666b;
 }
 
-footer form input:-ms-input-placeholder{
-    color:  #5c666b;
+footer form input:-ms-input-placeholder {
+    color: #5c666b;
 }
 
 /* The magnify glass icon */
 
-footer form i{
+footer form i {
     width: 20px;
     height: 20px;
     position: absolute;
@@ -408,15 +408,13 @@ footer form i{
 
 @media (max-width: 1100px) {
 
-    footer .footer-left{
+    footer .footer-left {
         margin-bottom: 50px;
     }
 
-    footer .footer-right{
+    footer .footer-right {
         float: left;
         clear: left;
     }
 
 }
-
-
