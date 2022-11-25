@@ -154,7 +154,7 @@ a:focus {
 /*light blue*/
 /* Header */
 .htmleaf-header {
-	padding: 1em 190px 1em;
+	padding: 2em 190px 1em;
 	letter-spacing: -1px;
 	text-align: center;
 }
@@ -233,6 +233,19 @@ a:focus {
 	padding: 0em 0;
 	width: 1.5em;
 	text-decoration: none;
+}
+
+.btn-primary {
+    display: block;
+    width: 150px;
+    height: 60px;
+    box-sizing: border-box;
+    left: 216px!important;
+    font-size: 22px;
+    text-align: center;
+    line-height: 58px;
+    border: 1px solid #32ce5a;
+    cursor: pointer;
 }
 
 .htmleaf-icon span {

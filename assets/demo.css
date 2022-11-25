@@ -23,7 +23,6 @@ body {
 
 /*  Styles for this example */
 
-
 .parallax-image.skrollable-between {
     display: block;
 }
@@ -37,9 +36,8 @@ body {
     left: 0;
     width: 100%;
     overflow: hidden;
-
-    height: 80vh;
-    top: -80vh;
+    height: 100vh;
+    top: -100vh;
 }
 
 
@@ -52,7 +50,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
     height: 100vh;
     top: 0;
 }
@@ -66,25 +63,17 @@ body {
     display: none !important;
 }
 
-
-
 .gap {
     background: transparent center no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
 }
 
 .skrollr .gap {
     background: transparent !important;
 }
 
-
-/*  End of scrollr styles   */
-
-
-/*Intro*/
-
-#page-intro h1{
+#page-intro h1 {
     text-align: center;
     color: #fff;
     font: normal 60px 'Droid Serif', sans-serif;
@@ -102,20 +91,21 @@ body {
     color: #fff !important;
     display: block;
     margin: 40px auto;
-    width: 200px;
     text-align: center;
-    border: 1px solid #fff;
-    padding: 18px 20px;
+    border: 0px solid #fff;
     border-radius: 4px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
+    background: url(/assets/images/nice.jpg) repeat 0,0;
+    background-size: contain;
+    font-family: 'Droid Serif', sans-serif;
+}
+
+.btn:hover {
+    transform: scale(1.5);
+    transition: all .3s;
 }
 
 
-
 /*Body Text*/
-
 
 .body-text {
     padding: 140px 0;
