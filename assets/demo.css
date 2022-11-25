@@ -87,14 +87,14 @@ body {
     }
 }
 
-#page-intro .btn{
+#page-intro .btn {
     color: #fff !important;
     display: block;
     margin: 40px auto;
     text-align: center;
     border: 0px solid #fff;
     border-radius: 4px;
-    background: url(images/nice.jpg) repeat 0,0;
+    background: url(images/nice.jpg) repeat 0, 0;
     background-size: contain;
     font-family: 'Droid Serif', sans-serif;
 }
@@ -121,10 +121,23 @@ body {
     margin-bottom: 80px;
 }
 
-.body-text p {
+.body-text h2 span {
+    font-family: "Microsoft YaHei", "宋体", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
+    display: block;
+    font-size: 60%;
+    font-weight: 300;
+    padding: 0.8em 0 0.5em 0;
+    color: #c3c8cd;
+}
+
+.body-text div {
     width: 28%;
     display: inline-block;
+}
+
+.body-text div p {
     text-align: left;
+    text-indent: 2em;
     padding: 20px;
     color: #45636B;
 }
