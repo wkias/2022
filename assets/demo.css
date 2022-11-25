@@ -145,7 +145,7 @@ body {
 
 @media (max-width: 900px) {
 
-    .body-text p {
+    .body-text div p {
         width: 100%;
     }
 
@@ -252,6 +252,31 @@ body {
 
 }
 
+/*Trace*/
+
+.trace {
+    padding: 150px 0;
+    background-color: #fff;
+    min-height: 120vh;
+    text-align: center;
+    color: #25373C;
+    font-size: 18px;
+}
+
+.trace h2 {
+    font-size: 42px;
+    margin-bottom: 80px;
+    font-weight: normal;
+}
+
+video {
+    width: 50%;
+    height: 50%;
+}
+
+.trace div {
+    text-align: center;
+}
 
 /*Gallery*/
 
