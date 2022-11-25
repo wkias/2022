@@ -84,7 +84,7 @@ body {
 
 /*Intro*/
 
-/*#page-intro h1{
+#page-intro h1{
     text-align: center;
     color: #fff;
     font: normal 60px 'Droid Serif', sans-serif;
@@ -110,7 +110,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
-}*/
+}
 
 
 
