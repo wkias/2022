@@ -94,7 +94,7 @@ body {
     text-align: center;
     border: 0px solid #fff;
     border-radius: 4px;
-    background: url(/assets/images/nice.jpg) repeat 0,0;
+    background: url(images/nice.jpg) repeat 0,0;
     background-size: contain;
     font-family: 'Droid Serif', sans-serif;
 }
