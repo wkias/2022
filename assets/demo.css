@@ -131,25 +131,38 @@ body {
 }
 
 .body-text div {
-    width: 28%;
-    display: inline-block;
+    display: block;
+    align-items: center;
+    width: 70%;
+    margin: auto;
 }
 
 .body-text div p {
+    display: block;
     text-align: left;
     text-indent: 2em;
-    padding: 20px;
-    color: #45636B;
+    width: 100%;
+    padding: 10px;
 }
 
 
 @media (max-width: 900px) {
-
     .body-text div p {
         width: 100%;
     }
-
 }
+
+@media screen and (min-width: 320px) {
+    .body-text div {
+        width: 85%;
+    }
+
+    .body-text h2 span {
+        margin: auto;
+        text-align: center;
+        width: 85%;
+    }
+  }
 
 /*Features List*/
 
@@ -270,8 +283,8 @@ body {
 }
 
 video {
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
 }
 
 .trace div {
