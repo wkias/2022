@@ -105,6 +105,66 @@ body {
 }
 
 
+/*preface*/
+
+.preface {
+    padding: 140px 0;
+    background-color: #fff;
+    color: #25373C;
+    font-size: 18px;
+    text-align: center;
+}
+
+.preface h2 {
+    font-size: 42px;
+    font-weight: normal;
+    margin-bottom: 80px;
+}
+
+.preface h2 span {
+    font-family: "Microsoft YaHei", "宋体", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
+    display: block;
+    font-size: 60%;
+    font-weight: 300;
+    padding: 0.8em 0 0.5em 0;
+    color: #c3c8cd;
+}
+
+.preface div {
+    display: block;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+.preface div p {
+    display: block;
+    text-align: left;
+    text-indent: 2em;
+    width: 100%;
+    padding: 10px;
+}
+
+
+@media (max-width: 900px) {
+    .preface div p {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .preface div {
+        width: 85%;
+    }
+
+    .preface h2 span {
+        margin: auto;
+        text-align: center;
+        width: 85%;
+    }
+  }
+
+  
 /*Body Text*/
 
 .body-text {
