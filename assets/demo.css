@@ -154,13 +154,13 @@ body {
 
 @media screen and (min-width: 320px) {
     .preface div {
-        width: 85%;
+        width: 70%;
     }
 
     .preface h2 span {
         margin: auto;
         text-align: center;
-        width: 85%;
+        width: 70%;
     }
   }
 
@@ -208,19 +208,19 @@ body {
 
 @media (max-width: 900px) {
     .body-text div p {
-        width: 100%;
+        width: 70%;
     }
 }
 
 @media screen and (min-width: 320px) {
     .body-text div {
-        width: 85%;
+        width: 70%;
     }
 
     .body-text h2 span {
         margin: auto;
         text-align: center;
-        width: 85%;
+        width: 70%;
     }
   }
 
