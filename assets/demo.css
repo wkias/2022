@@ -205,6 +205,13 @@ body {
     padding: 10px;
 }
 
+.body-text div p img {
+    text-align: center;
+    text-indent: 2em;
+    width: 80%;
+    padding: 8px;
+}
+
 
 @media (max-width: 900px) {
     .body-text div p {
